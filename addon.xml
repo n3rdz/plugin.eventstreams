@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="your.addon.id" name="Eventstreams" version="0.0.10" provider-name="n3rdz">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+<addon id="n3rdz" name="Eventstreams" version="0.0.3" provider-name="n3rdz">
+  <requires>0
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Eventstreams</summary>
-    <description lang="en">Eventstream</description>
+    <summary lang="en">Livestreams</summary>
+    <description lang="en">Livestreams</description>
     <disclaimer lang="en"></disclaimer>
     <language>de</language>
     <platform>all</platform>
     <license></license>
     <forum></forum>
-    <website></website>
+    <website>www.n3rdz.de</website>
     <email></email>
     <source>https://github.com/n3rdz/plugin.eventstreams.git</source>
   </extension>
