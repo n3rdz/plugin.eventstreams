@@ -38,4 +38,9 @@ url = 'http://brevent1hds-lh.akamaihd.net/i/br_event02isma@111248/master.m3u8'
 li = xbmcgui.ListItem('BR Event2')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
+url = 'http://gl_event2_uni-lh.akamaihd.net/i/redcarpet_live@179589/master.m3u8'
+li = xbmcgui.ListItem('Redcarpet Berlin Event2')
+xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
+
+
 xbmcplugin.endOfDirectory(addon_handle)
