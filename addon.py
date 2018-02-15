@@ -30,10 +30,6 @@ url = 'http://swr_event04_uni-lh.akamaihd.net/i/swr_event04@198169/master.m3u8'
 li = xbmcgui.ListItem('SWR Event4')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
-
-
-
-
 url = 'http://wdr_ardevent1-lh.akamaihd.net/i/wdrardevent1_weltweit@112049/master.m3u8'
 li = xbmcgui.ListItem('EDR Event1')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
@@ -49,10 +45,6 @@ xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 url = 'http://wdr_event4-lh.akamaihd.net/i/wdrevent4_weltweit@112054/master.m3u8'
 li = xbmcgui.ListItem('EDR Event4')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
-
-
-
-
 
 url = 'http://brevent1hds-lh.akamaihd.net/i/br_event01isma@86390/master.m3u8'
 li = xbmcgui.ListItem('BR Event3')
@@ -70,10 +62,6 @@ url = 'http://brevent1hds-lh.akamaihd.net/i/br_event04isma@111250/master.m3u8'
 li = xbmcgui.ListItem('BR Event3')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
-
-
-
-
 url = 'http://hrevent-lh.akamaihd.net/i/hr_event@309239/master.m3u8'
 li = xbmcgui.ListItem('HR Event1')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
@@ -82,9 +70,6 @@ url = 'http://hrevent2-lh.akamaihd.net/i/hr_event2@309240/master.m3u8'
 li = xbmcgui.ListItem('HR Event2')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
- 
-  
-  
 url = 'http://ndr_events-lh.akamaihd.net/i/ndrevent_1@119220/master.m3u8'
 li = xbmcgui.ListItem('NDR Event1')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
@@ -121,16 +106,9 @@ url = 'http://ndr_spezial-lh.akamaihd.net/i/spezial_6@364638/master.m3u8'
 li = xbmcgui.ListItem('NDR Spezial6')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
-
-
-
 url = 'http://rbb_event-lh.akamaihd.net/i/rbbevent_nongeo@107643/master.m3u8'
 li = xbmcgui.ListItem('RBB Event')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
-
-
-
-
 
 url = 'https://arteevent01-lh.akamaihd.net/i/arte_event01@395110/master.m3u8'
 li = xbmcgui.ListItem('arte Event1')
@@ -144,12 +122,6 @@ url = 'http://arteevent03lh.akamaihd.net/i/arteevent03@305298/master.m3u8'
 li = xbmcgui.ListItem('arte Event3')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
-https://arteevent01-lh.akamaihd.net/i/arte_event01@395110/master.m3u8
-
-
-
-
-
 url = 'http://liveevent1.mdr.de/i/livetvmdrevent1_ww@106904/master.m3u8'
 li = xbmcgui.ListItem('MDR Event1')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
@@ -162,46 +134,32 @@ url = 'http://liveevent2.mdr.de/i/livetvmdrevent3_ww@106905/master.m3u8'
 li = xbmcgui.ListItem('MDR Event3')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
-
-url = 'http://zdf0304-lh.akamaihd.net/i/de03_v1@392855/master.m3u8?dw=0'
+url = 'http://zdf0304-lh.akamaihd.net/i/de03_v1@392855/master.m3u8'
 li = xbmcgui.ListItem('ZDF Event1')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
-
 
 url = 'http://zdf0304-lh.akamaihd.net/i/de04_v1@392856/master.m3u8'
 li = xbmcgui.ListItem('ZDF Event2')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
-
 url = 'http://zdf0506-lh.akamaihd.net/i/de05_v1@392857/master.m3u8'
 li = xbmcgui.ListItem('ZDF Event3')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
-
 
 url = 'http://zdf0506-lh.akamaihd.net/i/de06_v1@392858/master.m3u8'
 li = xbmcgui.ListItem('ZDF Event4')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
-
 url = 'http://zdf0708-lh.akamaihd.net/i/de07_v1@392868/master.m3u8'
 li = xbmcgui.ListItem('ZDF Event5')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
-
 
 url = 'http://zdf0708-lh.akamaihd.net/i/de08_v1@392869/master.m3u8'
 li = xbmcgui.ListItem('ZDF Event6')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
-
-
 url = 'http://gl_event2_uni-lh.akamaihd.net/i/redcarpet_live@179589/master.m3u8'
 li = xbmcgui.ListItem('Redcarpet Berlin Event2')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
-
-
-
-
-
-
 
 xbmcplugin.endOfDirectory(addon_handle)
