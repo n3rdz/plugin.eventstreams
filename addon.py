@@ -6,6 +6,7 @@ addon_handle = int(sys.argv[1])
 
 xbmcplugin.setContent(addon_handle, 'movies')
 
+
 url = 'http://swrdasding-lh.akamaihd.net/i/dasdingvisual_live@6416/master.m3u8'
 li = xbmcgui.ListItem('DASDING Visual Radio')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
@@ -31,19 +32,19 @@ li = xbmcgui.ListItem('SWR Event4')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 url = 'http://wdr_ardevent1-lh.akamaihd.net/i/wdrardevent1_weltweit@112049/master.m3u8'
-li = xbmcgui.ListItem('EDR Event1')
+li = xbmcgui.ListItem('WDR Event1')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 url = 'http://wdr_event2-lh.akamaihd.net/i/wdrevent2_weltweit@112052/master.m3u8'
-li = xbmcgui.ListItem('EDR Event2')
+li = xbmcgui.ListItem('WDR Event2')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 url = 'http://wdr_event3-lh.akamaihd.net/i/wdrevent3_weltweit@112053/master.m3u8'
-li = xbmcgui.ListItem('EDR Event3')
+li = xbmcgui.ListItem('WDR Event3')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 url = 'http://wdr_event4-lh.akamaihd.net/i/wdrevent4_weltweit@112054/master.m3u8'
-li = xbmcgui.ListItem('EDR Event4')
+li = xbmcgui.ListItem('WDR Event4')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 url = 'http://brevent1hds-lh.akamaihd.net/i/br_event01isma@86390/master.m3u8'
@@ -59,7 +60,7 @@ li = xbmcgui.ListItem('BR Event3')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 url = 'http://brevent1hds-lh.akamaihd.net/i/br_event04isma@111250/master.m3u8'
-li = xbmcgui.ListItem('BR Event3')
+li = xbmcgui.ListItem('BR Event4')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 url = 'http://hrevent-lh.akamaihd.net/i/hr_event@309239/master.m3u8'
